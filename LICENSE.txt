@@ -1,0 +1,43 @@
+Career Atlas occupations dataset
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this dataset for any purpose, including commercially,
+provided you give appropriate credit, link to the licence, and indicate whether
+changes were made.
+
+CC BY 4.0 is not chosen freely. It is inherited: this dataset incorporates
+O*NET 30.3, Microsoft "Working with AI" and the Anthropic Economic Index, all
+of which are CC BY, so any redistribution carries the same attribution
+obligation forward.
+
+ATTRIBUTION
+
+  Career Atlas occupations dataset. https://careeratlas.dev
+  Derived from:
+    BLS Occupational Employment and Wage Statistics, May 2025
+      Public domain (U.S. Government work)
+    BLS Employment Projections 2025-2035
+      Public domain (U.S. Government work)
+    O*NET 30.3, National Center for O*NET Development, U.S. Dept. of Labor
+      CC BY 4.0, used under licence, transformed
+    Microsoft "Working with AI"
+      CC BY 4.0, used under licence, transformed
+    Anthropic Economic Index
+      CC BY, used under licence, transformed
+
+INDICATION OF CHANGES
+
+Required by CC BY. The licensed inputs were transformed rather than
+redistributed as-is: joined to 2018 SOC codes, reconciled across the 2018 and
+2019 SOC revisions, rescaled to common ranges, aggregated from O*NET-SOC
+sub-codes to 6-digit codes, and combined into the derived and modeled columns
+described in data-dictionary.csv.
+
+WHAT THE LICENCE DOES NOT COVER
+
+Attribution is a legal requirement. The following is not, and is asked for
+anyway: the columns marked "modeled" in the data dictionary are our judgement,
+not measurement, and there is no ground-truth dataset of AI displacement to
+check them against. If you republish those columns, please carry that caveat
+with them.

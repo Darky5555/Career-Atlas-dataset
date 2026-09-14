@@ -1,0 +1,26 @@
+column,type,unit,provenance,description
+soc_code,string,SOC 2018 code,sourced,"US Standard Occupational Classification, the join key for every other public dataset here."
+occupation_title,string,,derived,"The title Career Atlas publishes this code under. Where several titles share a code, this is the one that owns the page; the official O*NET title wins where we carry an occupation by that name."
+career_atlas_url,string,URL,derived,"Page for this occupation, where every number below is shown with its provenance label."
+median_annual_wage_usd,integer,USD/year,sourced,"BLS OEWS, May 2025 reference period. Blank where BLS does not publish a national figure."
+wage_pct10,integer,USD/year,sourced,BLS OEWS 10th percentile. Blank where not published; we do NOT substitute an estimate.
+wage_pct25,integer,USD/year,sourced,BLS OEWS 25th percentile. Blank where not published.
+wage_pct75,integer,USD/year,sourced,BLS OEWS 75th percentile. Blank where not published.
+wage_pct90,integer,USD/year,sourced,BLS OEWS 90th percentile. Blank where not published.
+wage_source,string,,sourced,"Which release the wage came from. ""onet-wage-2025"" marks the two occupations absent from the national OEWS file, where O*NET OnLine aggregates state-level BLS data instead."
+employment,integer,jobs,sourced,"Total US employment, BLS OEWS."
+projected_growth_pct,number,percent over 10 years,sourced,"BLS Employment Projections 2025-2035, percent change in employment. Negative means projected decline."
+annual_openings,integer,openings/year,sourced,"BLS Employment Projections 2025-2035, average annual openings including replacement demand. Blank where BLS publishes none; we do NOT substitute an estimate in this file."
+job_zone,integer,1-5,sourced,"O*NET Job Zone, preparation required. 1 is little or none, 5 is extensive."
+bright_outlook,boolean,,sourced,"O*NET Bright Outlook flag, 2025."
+remote_proxy,number,1-5,derived,"How desk-based and digital the work is, computed from O*NET work-context items. Higher means more remote-capable. This is a proxy, not a measurement of who actually works remotely."
+physical_demand,number,1-5,derived,"Physical demand, computed from O*NET work-context items. Higher means more physical. Blank where O*NET publishes no work context for the code."
+ai_task_score,number,0-1,derived,"Share of the occupation's task list that looks like work AI is used for, weighted by measured Claude-usage contribution per task and adjusted by two work-context signals. A magnitude, safe to compute with."
+ai_exposure_percentile,number,0-100,derived,"Percentile rank of ai_task_score across occupations. A RANK, uniform by construction. Comparable to the benchmark percentiles below; do NOT feed it into a weighted composite."
+displacement_risk,number,0-1,modeled,OUR OPINION. ai_task_score x (1 - shield). The part of the exposed work we judge AI may do INSTEAD of the person. No ground-truth dataset exists to fit or check this against; see the README.
+augmentation,number,0-1,modeled,OUR OPINION. ai_task_score x shield. The part we judge AI may do ALONGSIDE the person. displacement_risk + augmentation = ai_task_score by construction.
+shield,number,0-1,modeled,"OUR OPINION. 0.6 x (legal_barrier_level / 3) + 0.4 x normalized physical demand, capped at 0.85. The weights are ours and are not derived from anything."
+legal_barrier_level,integer,0-3,modeled,"How far the law pins this work to a named human. 0 none, 1 credential expected, 2 licence or named officer required, 3 a named human must personally sign. Mostly derived from entry routes, with curated exceptions."
+future_proof_score,integer,0-100,modeled,"OUR OPINION. Weighted blend of growth outlook, automation resistance, salary ceiling, workforce retention and skill demand. Weights are ours and published on the methodology page."
+microsoft_ai_applicability_percentile,number,0-100,sourced,"Microsoft ""Working with AI"" applicability score, percentile within its own distribution. An independent benchmark, not an input to our displacement model."
+anthropic_claude_usage_percentile,number,0-100,sourced,"Anthropic Economic Index Claude-usage intensity, percentile within its own distribution. Independent benchmark."
