@@ -1,7 +1,7 @@
 soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wage_pct25,wage_pct75,wage_pct90,wage_source,employment,projected_growth_pct,annual_openings,job_zone,bright_outlook,remote_proxy,physical_demand,ai_task_score,ai_exposure_percentile,displacement_risk,augmentation,shield,legal_barrier_level,future_proof_score,microsoft_ai_applicability_percentile,anthropic_claude_usage_percentile
 11-1011,Chief Executives,https://careeratlas.dev/careers/chief-executives,213990,75700,129540,356200,507730,bls-oews-2025,204350,3.2,19100,5,false,3.575,1.87,0.685,90.8,0.214,0.471,0.687,3,70,54,86
 11-1021,General & Operations Managers,https://careeratlas.dev/careers/general-operations-managers,105770,50090,72320,167280,253390,bls-oews-2025,3503020,5,285000,4,true,3.037,2.611,0.542,62.1,0.455,0.087,0.161,0,54,36,71
-11-1031,Legislators,https://careeratlas.dev/careers/legislators,44810,,,,,onet-wage-2025,,,,4,false,,,,41.6,,,,0,44,84,44
+11-1031,Legislators,https://careeratlas.dev/careers/legislators,108510,,,,,onet-wage-2025,,,,4,false,,,,41.6,,,,0,52,84,44
 11-2021,Marketing Managers,https://careeratlas.dev/careers/marketing-managers,166790,90260,123020,216410,293610,bls-oews-2025,395240,6.9,34000,4,true,3.735,1.792,0.629,82.2,0.579,0.05,0.079,0,60,66,72
 11-2022,Sales Managers,https://careeratlas.dev/careers/sales-managers,148270,73170,100360,207340,290540,bls-oews-2025,637080,4.5,47300,4,true,3.65,1.9,0.546,63.1,0.497,0.049,0.09,0,58,57,49
 11-2032,Public Relations Managers,https://careeratlas.dev/careers/public-relations-managers,146910,82410,106580,204520,284990,bls-oews-2025,74850,5.7,6100,4,true,,,0.559,67.3,0.447,0.112,0.2,0,59,74,
@@ -406,7 +406,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 45-2092,Vineyard & Winery Workers,https://careeratlas.dev/careers/vineyard-winery-workers,35660,32900,34320,38840,45690,bls-oews-2025,265500,-2.4,72500,2,false,1.741,3.688,0.301,11,0.22,0.081,0.269,0,43,11,52
 45-2093,"Farmworkers, Animal",https://careeratlas.dev/careers/farmworkers-animal,36670,27360,31020,45700,54080,bls-oews-2025,32810,-3.2,26600,2,false,1.982,3.649,0.321,15.2,0.236,0.085,0.265,0,42,50,
 45-2099,Precision Agriculture Technicians,https://careeratlas.dev/careers/precision-agriculture-technicians,39850,27760,33140,53290,76940,bls-oews-2025,3620,3.8,1300,,false,,,0.465,46.2,0.372,0.093,0.2,0,47,,
-45-3031,Fishing & Hunting Workers,https://careeratlas.dev/careers/fishing-hunting-workers,36750,,,,,onet-wage-broadgroup,,-4.2,3300,2,false,2.331,3.43,0.37,22.8,0.28,0.09,0.243,0,40,18,
+45-3031,Fishing & Hunting Workers,https://careeratlas.dev/careers/fishing-hunting-workers,36630,,,,,onet-wage-broadgroup,,-4.2,3300,2,false,2.331,3.43,0.37,22.8,0.28,0.09,0.243,0,40,18,
 45-4011,Forest & Conservation Workers,https://careeratlas.dev/careers/forest-conservation-workers,43680,33780,37440,45760,57220,bls-oews-2025,6050,-1.5,2200,2,false,2.619,3.173,0.415,34.1,0.325,0.09,0.217,0,42,22,
 45-4022,Logging Workers,https://careeratlas.dev/careers/logging-workers,49740,35170,43970,61050,74300,bls-oews-2025,21060,-3.8,3700,2,false,3.022,1.768,0.538,60.9,0.497,0.041,0.077,0,36,1,
 47-2011,Boilermakers,https://careeratlas.dev/careers/boilermakers,76410,50490,64760,95430,110370,bls-oews-2025,10190,-1.8,700,2,false,2.406,3.688,0.381,26.1,0.279,0.102,0.269,0,50,8,
