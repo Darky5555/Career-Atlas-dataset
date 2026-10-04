@@ -4,9 +4,9 @@ One row per US SOC occupation: federal wage and employment-projection figures,
 O*NET work-context measures, two independent AI-exposure benchmarks, and a
 modeled split of AI exposure into displacement and augmentation.
 
-- `career-atlas-occupations.csv`: 524 occupations, 25 columns
+- `career-atlas-occupations.csv`: 524 occupations, 26 columns
 - `data-dictionary.csv`: every column with its type, unit, provenance and meaning
-- Built 2026-09-14 from the sources listed below
+- Built 2026-09-22 from the sources listed below
 
 ## What is unusual about it
 
@@ -93,7 +93,7 @@ including commercially, with attribution.
 
 Suggested citation:
 
-> Career Atlas occupations dataset (2026-09-14). https://careeratlas.dev. Derived from BLS OEWS
+> Career Atlas occupations dataset (2026-09-22). https://careeratlas.dev. Derived from BLS OEWS
 > May 2025, BLS Employment Projections 2025-2035, O*NET 30.3, Microsoft
 > "Working with AI", and the Anthropic Economic Index. CC BY 4.0.
 
