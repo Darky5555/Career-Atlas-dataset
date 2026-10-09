@@ -6,7 +6,7 @@ modeled split of AI exposure into displacement and augmentation.
 
 - `career-atlas-occupations.csv`: 524 occupations, 26 columns
 - `data-dictionary.csv`: every column with its type, unit, provenance and meaning
-- Built 2026-09-22 from the sources listed below
+- Built 2026-10-08 from the sources listed below
 
 ## What is unusual about it
 
@@ -48,9 +48,9 @@ the data dictionary tells you which is which for every field.
 Blank means not published, never zero. Nothing here is imputed to fill a gap.
 
 - `median_annual_wage_usd`: 524 of 524 (100%)
-- `wage_pct25`/`wage_pct75`: 503 of 524 (96%)
-- `projected_growth_pct`: 504 of 524 (96%)
-- `annual_openings`: 504 of 524 (96%)
+- `wage_pct25`/`wage_pct75`: 504 of 524 (96%)
+- `projected_growth_pct`: 509 of 524 (97%)
+- `annual_openings`: 509 of 524 (97%)
 - `physical_demand`: 453 of 524 (86%)
 - `ai_task_score`: 503 of 524 (96%)
 - `displacement_risk`: 503 of 524 (96%)
@@ -93,7 +93,7 @@ including commercially, with attribution.
 
 Suggested citation:
 
-> Career Atlas occupations dataset (2026-09-22). https://careeratlas.dev. Derived from BLS OEWS
+> Career Atlas occupations dataset (2026-10-08). https://careeratlas.dev. Derived from BLS OEWS
 > May 2025, BLS Employment Projections 2025-2035, O*NET 30.3, Microsoft
 > "Working with AI", and the Anthropic Economic Index. CC BY 4.0.
 

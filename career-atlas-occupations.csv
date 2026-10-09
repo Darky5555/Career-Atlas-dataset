@@ -1,7 +1,7 @@
 soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wage_pct25,wage_pct75,wage_pct90,wage_source,bls_source_soc,employment,projected_growth_pct,annual_openings,job_zone,bright_outlook,remote_proxy,physical_demand,ai_task_score,ai_exposure_percentile,displacement_risk,augmentation,shield,legal_barrier_level,future_proof_score,microsoft_ai_applicability_percentile,anthropic_claude_usage_percentile
 11-1011,Chief Executives,https://careeratlas.dev/careers/chief-executives,213990,75700,129540,356200,507730,bls-oews-2025,,204350,3.2,19100,5,false,3.575,1.87,0.685,90.8,0.214,0.471,0.687,3,70,54,86
 11-1021,General & Operations Managers,https://careeratlas.dev/careers/general-operations-managers,105770,50090,72320,167280,253390,bls-oews-2025,,3503020,5,285000,4,true,3.037,2.611,0.542,62.1,0.455,0.087,0.161,0,54,36,71
-11-1031,Legislators,https://careeratlas.dev/careers/legislators,108510,,,,,onet-wage-2025,,,,,4,false,,,,41.6,,,,0,52,84,44
+11-1031,Legislators,https://careeratlas.dev/careers/legislators,108510,,,,,onet-wage-2025,,,,,4,false,,,,,,,,0,52,84,44
 11-2021,Marketing Managers,https://careeratlas.dev/careers/marketing-managers,166790,90260,123020,216410,293610,bls-oews-2025,,395240,6.9,34000,4,true,3.735,1.792,0.629,82.2,0.579,0.05,0.079,0,60,66,72
 11-2022,Sales Managers,https://careeratlas.dev/careers/sales-managers,148270,73170,100360,207340,290540,bls-oews-2025,,637080,4.5,47300,4,true,3.65,1.9,0.546,63.1,0.497,0.049,0.09,0,58,57,49
 11-2032,Public Relations Managers,https://careeratlas.dev/careers/public-relations-managers,146910,82410,106580,204520,284990,bls-oews-2025,,74850,5.7,6100,4,true,,,0.559,67.3,0.447,0.112,0.2,0,59,74,
@@ -174,11 +174,11 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 25-1194,Vocational & CTE Teachers,https://careeratlas.dev/careers/vocational-cte-teachers,63820,41960,50320,82360,108620,bls-oews-2025,,114110,-0.3,8000,3,false,3.024,2.906,0.595,75.6,0.244,0.351,0.591,2,53,65,86
 25-2011,Preschool Teachers,https://careeratlas.dev/careers/preschool-teachers,38140,28990,34530,47550,61390,bls-oews-2025,,478780,4.5,66700,3,false,2.211,3.481,0.483,50,0.267,0.216,0.448,1,53,55,79
 25-2012,Kindergarten Teachers,https://careeratlas.dev/careers/kindergarten-teachers,62680,46990,52180,79910,101830,bls-oews-2025,,108870,-0.3,11900,4,false,2.672,3.589,0.472,47.8,0.161,0.311,0.659,2,54,68,73
-25-2020,"STEM Teachers, K-12",https://careeratlas.dev/careers/stem-teachers-k-12,64000,,,,,,,,,,,false,,,,25.2,,,,2,56,,
+25-2020,"STEM Teachers, K-12",https://careeratlas.dev/careers/stem-teachers-k-12,64000,,,,,,25-2020,,-0.4,127300,,false,,,,,,,,2,54,,
 25-2021,Elementary School Teachers,https://careeratlas.dev/careers/elementary-school-teachers,63970,47960,57710,81450,104340,bls-oews-2025,,1388390,-0.4,87500,4,true,2.73,3.483,0.54,61.7,0.19,0.35,0.648,2,54,66,85
 25-2022,Middle School Teachers,https://careeratlas.dev/careers/middle-school-teachers,64370,48080,58530,80490,102540,bls-oews-2025,,620090,-0.4,38800,4,false,2.815,3.096,0.583,72.7,0.228,0.355,0.61,2,53,62,89
 25-2031,Secondary School Teachers,https://careeratlas.dev/careers/secondary-school-teachers,72040,48780,59980,92570,107600,bls-oews-2025,,1065210,-0.2,63500,4,false,3.11,2.736,0.621,80.8,0.265,0.356,0.574,2,53,62,89
-25-2050,Special Education Teachers,https://careeratlas.dev/careers/special-education-teachers,65000,,,,,,,,,,,false,,,,25.2,,,,2,57,,
+25-2050,Special Education Teachers,https://careeratlas.dev/careers/special-education-teachers,65000,,,,,,25-2050,,-0.1,37100,,false,,,,,,,,2,55,,
 25-2052,"Special Ed Teachers, Elementary",https://careeratlas.dev/careers/special-ed-teachers-elementary,65120,49350,59710,80280,103010,bls-oews-2025,,260870,-0.4,16400,,false,,,0.482,48.8,0.193,0.289,0.6,2,53,59,59
 25-2058,"Special Ed Teachers, Secondary",https://careeratlas.dev/careers/special-ed-teachers-secondary,74260,49800,60180,93730,109100,bls-oews-2025,,163930,-0.2,10400,4,false,3.197,2.467,0.446,41.5,0.202,0.244,0.547,2,55,68,
 25-3011,ESL Teachers,https://careeratlas.dev/careers/esl-teachers,61540,41810,49100,77690,98030,bls-oews-2025,,37310,-13.9,3800,4,false,3.291,2.489,0.658,86.8,0.297,0.361,0.549,2,41,60,93
@@ -244,7 +244,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 29-1151,Nurse Anesthetists,https://careeratlas.dev/careers/nurse-anesthetists,236590,155250,206730,294350,339500,bls-oews-2025,,51840,9.7,2400,5,true,3.008,2.69,0.431,37.9,0.1,0.331,0.769,3,86,23,
 29-1171,Nurse Practitioners,https://careeratlas.dev/careers/nurse-practitioners,132300,101340,117990,156700,174420,bls-oews-2025,,323040,41,29400,5,true,3.027,2.781,0.544,62.9,0.121,0.423,0.778,3,87,50,74
 29-1181,Audiologists,https://careeratlas.dev/careers/audiologists,95780,64610,79340,111300,133120,bls-oews-2025,,13660,11,600,5,true,3.558,2.067,0.42,35.7,0.123,0.297,0.707,3,74,52,13
-29-1210,Physicians & Surgeons,https://careeratlas.dev/careers/physicians-surgeons,239000,,,,,,,,,,,false,,,,21.9,,,,3,78,,
+29-1210,Physicians & Surgeons,https://careeratlas.dev/careers/physicians-surgeons,239000,,,,,,29-1210,,3.6,20800,,false,,,,,,,,3,78,,
 29-1211,Anesthesiologists,https://careeratlas.dev/careers/anesthesiologists,391490,101460,207000,490530,557130,bls-oews-2025,,38760,3.6,1100,5,false,3.161,2.55,0.513,56,0.126,0.387,0.755,3,79,7,
 29-1212,Cardiologists,https://careeratlas.dev/careers/cardiologists,496010,107190,274280,610060,712130,bls-oews-2025,,17290,4.8,500,5,false,,,0.477,48.4,0.095,0.382,0.8,3,80,47,
 29-1213,Dermatologists,https://careeratlas.dev/careers/dermatologists,328730,102810,139990,452450,578560,bls-oews-2025,,11370,6.8,400,5,true,2.949,3.024,0.406,30.7,0.08,0.326,0.802,3,83,38,
@@ -275,12 +275,12 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 29-2091,Prosthetists & Orthotists,https://careeratlas.dev/careers/prosthetists-orthotists,81110,46350,61290,99990,119810,bls-oews-2025,,9390,12.9,700,5,true,3.022,3.034,0.413,33.5,0.246,0.167,0.403,1,70,12,
 29-2092,Hearing Aid Specialists,https://careeratlas.dev/careers/hearing-aid-specialists,65160,38400,48390,80010,94020,bls-oews-2025,,11270,19.4,900,3,true,3.824,1.922,0.561,68.5,0.285,0.276,0.492,2,73,32,
 29-2099,Clinical Data Managers,https://careeratlas.dev/careers/clinical-data-managers,50290,38180,44170,64340,85270,bls-oews-2025,,182610,5.9,12400,3,true,3.27,2.482,0.455,43.6,0.388,0.067,0.148,0,56,33,33
-29-9011,Radiation Safety Officers,https://careeratlas.dev/careers/radiation-safety-officers,90000,,,,,,,,,,,false,,,,21.9,,,,2,63,,1
+29-9011,Radiation Safety Officers,https://careeratlas.dev/careers/radiation-safety-officers,90000,,,,,,,,,,,false,,,,,,,,2,63,,1
 29-9021,Public Health Officers,https://careeratlas.dev/careers/public-health-officers,68020,39830,48940,95630,117420,bls-oews-2025,,38100,15.9,3000,3,true,,,0.413,32.7,0.33,0.083,0.2,0,69,89,
 29-9091,Athletic Trainers,https://careeratlas.dev/careers/athletic-trainers,62520,48180,55130,74630,88760,bls-oews-2025,,30500,12.7,2400,5,true,2.728,3.006,0.366,21.8,0.146,0.22,0.601,2,70,37,25
 29-9092,Genetic Counselors,https://careeratlas.dev/careers/genetic-counselors,100040,78270,88900,116140,138760,bls-oews-2025,,3740,10.4,300,5,true,3.727,1.618,0.612,78.4,0.452,0.16,0.262,1,65,90,61
 29-9099,Medical Physicists,https://careeratlas.dev/careers/medical-physicists,65790,38660,47750,97000,129830,bls-oews-2025,,35010,5.1,2200,5,false,3.319,2.338,0.492,51.6,0.229,0.263,0.534,2,61,48,41
-29-9179,Art Therapists,https://careeratlas.dev/careers/art-therapists,55000,,,,,,,,,,,false,,,,21.9,,,,1,59,,
+29-9179,Art Therapists,https://careeratlas.dev/careers/art-therapists,77930,46540,58850,105760,152530,bls-oews-2025-related,29-1129,22640,12.6,3600,,false,,,,,,,,1,72,,
 31-1120,Home Health & Personal Aides,https://careeratlas.dev/careers/home-health-personal-aides,35800,27040,31920,39470,45040,bls-oews-2025,,4305810,18.1,760500,,false,,,0.413,32.7,0.165,0.248,0.6,2,68,12,
 31-1131,Nursing Assistants,https://careeratlas.dev/careers/nursing-assistants,42260,33940,37260,47220,51980,bls-oews-2025,,1448910,2.6,196200,3,true,2.128,4.086,0.258,6.7,0.075,0.183,0.709,2,56,5,
 31-2011,Occupational Therapy Assistants,https://careeratlas.dev/careers/occupational-therapy-assistants,72300,51490,61710,79160,89780,bls-oews-2025,,51290,21.5,8100,3,true,2.385,3.724,0.355,20.4,0.116,0.239,0.672,2,76,28,40
@@ -332,7 +332,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 37-2011,Janitors & Cleaners,https://careeratlas.dev/careers/janitors-cleaners,36840,28640,32240,44060,50270,bls-oews-2025,,2209760,2.2,321800,3,true,2.127,4.02,0.28,8.3,0.195,0.085,0.302,0,48,35,
 37-2012,Maids & Housekeeping,https://careeratlas.dev/careers/maids-housekeeping,35510,27640,30350,39590,48570,bls-oews-2025,,860670,0.6,175500,2,true,1.719,4.473,0.165,0.5,0.108,0.057,0.347,0,48,2,23
 37-2021,Pest Control Workers,https://careeratlas.dev/careers/pest-control-workers,45250,34680,37440,49600,61890,bls-oews-2025,,102620,5.5,13700,2,true,1.833,3.667,0.234,3.7,0.172,0.062,0.267,0,54,39,13
-37-2099,Window Cleaners,https://careeratlas.dev/careers/window-cleaners,40000,,,,,,,,,,,false,,,,49.1,,,,0,42,,
+37-2099,Window Cleaners,https://careeratlas.dev/careers/window-cleaners,40000,,,,,,,,,,,false,,,,,,,,0,42,,
 37-3011,Groundskeeping Contractors,https://careeratlas.dev/careers/groundskeeping-contractors,39150,31150,36190,46830,56730,bls-oews-2025,,952640,4.7,149500,2,true,1.773,3.923,0.248,5.1,0.176,0.072,0.292,0,51,9,
 37-3013,Tree Trimmers & Pruners,https://careeratlas.dev/careers/tree-trimmers-pruners,50960,37940,44840,63900,80310,bls-oews-2025,,55160,4.2,7900,2,false,1.856,3.652,0.233,3.5,0.171,0.062,0.265,0,52,6,13
 37-3019,Irrigation Technicians,https://careeratlas.dev/careers/irrigation-technicians,46860,31650,37520,57820,74820,bls-oews-2025,,13630,3.7,1800,,false,,,0.43,37.5,0.258,0.172,0.4,1,50,,
@@ -345,7 +345,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 39-5091,"Makeup Artists, Film & TV",https://careeratlas.dev/careers/makeup-artists-film-tv,97150,23360,34530,143230,167470,bls-oews-2025,,2340,6.1,600,3,true,2.676,3.207,0.372,23.2,0.215,0.157,0.421,1,62,46,31
 39-5092,Manicurists & Pedicurists,https://careeratlas.dev/careers/manicurists-pedicurists,35760,28920,34010,41650,50140,bls-oews-2025,,152770,9.2,21900,2,true,3.204,1.797,0.521,58.7,0.271,0.25,0.48,2,55,7,
 39-5094,Skincare Specialists,https://careeratlas.dev/careers/skincare-specialists,45330,29580,36040,59700,82050,bls-oews-2025,,72890,8.8,14200,3,true,2.852,2.641,0.435,39.3,0.19,0.245,0.564,2,59,27,
-39-5099,Tattoo Artists,https://careeratlas.dev/careers/tattoo-artists,44000,,,,,,,,,,,false,,,,28.4,,,,0,54,,
+39-5099,Tattoo Artists,https://careeratlas.dev/careers/tattoo-artists,44000,,,,,,,,,,,false,,,,,,,,0,54,,
 39-7011,Travel Guides & Tour Workers,https://careeratlas.dev/careers/travel-guides-tour-workers,38120,28520,32910,47700,60930,bls-oews-2025-related,39-7010,53500,6.3,11900,3,true,2.313,3.343,0.304,11.6,0.233,0.071,0.234,0,54,,32
 39-9011,Childcare Workers,https://careeratlas.dev/careers/childcare-workers,34980,24260,29360,38570,46010,bls-oews-2025,,518910,-2,150300,2,true,2.435,3.412,0.4,29.9,0.224,0.176,0.441,1,47,56,51
 39-9021,Adult Day Care Workers,https://careeratlas.dev/careers/adult-day-care-workers,35800,27040,31920,39470,45040,bls-oews-2025-related,31-1120,4305810,18.1,760500,,false,,,0.382,26.3,0.306,0.076,0.2,0,65,,42
@@ -363,7 +363,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 41-3031,Private Bankers,https://careeratlas.dev/careers/private-bankers,78660,48040,56540,129950,212880,bls-oews-2025,,489570,1.4,35100,4,false,3.784,1.642,0.722,94.1,0.676,0.046,0.064,0,38,76,90
 41-3041,Travel Agents,https://careeratlas.dev/careers/travel-agents,50160,34610,41950,63060,76660,bls-oews-2025,,55110,0.2,5900,3,false,4.236,1.28,0.601,76.8,0.584,0.017,0.028,0,36,77,40
 41-3091,Services Sales Representatives,https://careeratlas.dev/careers/services-sales-representatives,69990,37980,47670,100480,148840,bls-oews-2025,,1256010,2.7,115700,2,true,,,0.483,49.5,0.386,0.097,0.2,0,46,100,
-41-3099,Image Consultants,https://careeratlas.dev/careers/image-consultants,55000,,,,,,,,,,,false,,,,57.1,,,,0,39,,32
+41-3099,Image Consultants,https://careeratlas.dev/careers/image-consultants,55000,,,,,,,,,,,false,,,,,,,,0,39,,32
 41-4011,Enterprise Account Executives,https://careeratlas.dev/careers/enterprise-account-executives,104920,52600,75030,158160,200440,bls-oews-2025,,284800,1.2,23600,3,false,3.6,2.04,0.664,87.8,0.595,0.069,0.104,0,43,91,83
 41-4012,"Sales Reps, Wholesale & Manufacturing",https://careeratlas.dev/careers/sales-reps-wholesale-manufacturing,72080,39090,50470,99640,137550,bls-oews-2025,,1238190,-0.9,99800,4,true,3.175,2.51,0.559,67.7,0.475,0.084,0.151,0,40,88,72
 41-9021,Real Estate Brokers,https://careeratlas.dev/careers/real-estate-brokers,73220,37110,46480,103360,143300,bls-oews-2025,,46100,0.8,7800,4,false,3.303,2.024,0.547,63.3,0.272,0.275,0.502,2,48,80,58
@@ -398,7 +398,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 43-9031,Knowledge Management Specialists,https://careeratlas.dev/careers/knowledge-management-specialists,55290,35680,43730,73840,96170,bls-oews-2025,,3350,-14.5,300,3,false,3.903,1.407,0.679,90.4,0.651,0.028,0.041,0,25,90,75
 43-9041,Insurance Claims Clerks,https://careeratlas.dev/careers/insurance-claims-clerks,49230,37560,44270,60490,73590,bls-oews-2025,,214260,-1.9,17500,2,false,4.223,1.355,0.702,92.7,0.677,0.025,0.035,0,31,89,76
 43-9061,"Office Clerks, General",https://careeratlas.dev/careers/office-clerks-general,45010,30310,36350,54300,64680,bls-oews-2025,,2464940,-6,249000,2,true,3.709,1.893,0.671,89.2,0.611,0.06,0.089,0,28,78,84
-43-9099,IT Coordinators,https://careeratlas.dev/careers/it-coordinators,52000,,,,,,,,,,,false,,,,74.2,,,,0,34,,
+43-9099,IT Coordinators,https://careeratlas.dev/careers/it-coordinators,52000,,,,,,,,,,,false,,,,,,,,0,34,,
 45-1011,First-Line Farming Supervisors,https://careeratlas.dev/careers/first-line-farming-supervisors,59320,38990,46670,75290,91770,bls-oews-2025,,27960,3.8,7200,3,false,2.541,2.944,0.307,12.6,0.247,0.06,0.194,0,52,14,11
 45-2011,Agricultural Inspectors,https://careeratlas.dev/careers/agricultural-inspectors,49940,37020,42330,64500,79580,bls-oews-2025,,14410,2.3,2500,2,false,2.596,3.099,0.355,20.2,0.28,0.075,0.21,0,49,30,34
 45-2041,Greenhouse Growers,https://careeratlas.dev/careers/greenhouse-growers,35730,29580,34320,38260,44490,bls-oews-2025,,25180,-3.4,5800,2,false,2.02,3.513,0.333,17,0.249,0.084,0.251,0,40,8,
@@ -438,7 +438,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 47-5011,Derrick & Rotary Drill Operators,https://careeratlas.dev/careers/derrick-rotary-drill-operators,58620,43380,49880,71610,81800,bls-oews-2025,,10590,1.6,900,2,false,1.716,3.883,0.297,10.4,0.211,0.086,0.288,0,53,13,
 47-5032,Explosives Workers & Blasters,https://careeratlas.dev/careers/explosives-workers-blasters,61390,40480,49630,80370,99360,bls-oews-2025,,5100,0,400,2,false,1.958,3.75,0.33,16.8,0.239,0.091,0.275,0,52,7,
 47-5044,Mining Machine Operators,https://careeratlas.dev/careers/mining-machine-operators,74500,52030,61410,79150,87730,bls-oews-2025,,5930,-15.8,400,2,false,2.512,2.632,0.452,43,0.378,0.074,0.163,0,39,11,
-47-5061,Tunnel Workers,https://careeratlas.dev/careers/tunnel-workers,62000,,,,,,,,,,,false,,,,37.3,,,,0,51,,
+47-5061,Tunnel Workers,https://careeratlas.dev/careers/tunnel-workers,62000,,,,,,,,,,,false,,,,,,,,0,51,,
 47-5099,Underground Utilities Locators,https://careeratlas.dev/careers/underground-utilities-locators,57010,37530,44370,65380,82160,bls-oews-2025,,5540,3.4,600,,false,,,0.483,49.5,0.386,0.097,0.2,0,51,,
 49-2022,Telecom Equipment Installers,https://careeratlas.dev/careers/telecom-equipment-installers,63890,44240,51830,81690,96730,bls-oews-2025,,140920,-3.3,11300,3,false,2.77,3.244,0.375,24.2,0.216,0.159,0.424,1,49,64,49
 49-2092,EV Charging Station Installers,https://careeratlas.dev/careers/ev-charging-station-installers,56210,37100,45190,69090,85200,bls-oews-2025,,14450,4.4,1400,3,false,2.23,3.688,0.376,24.6,0.2,0.176,0.469,1,56,35,52
@@ -467,11 +467,11 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 51-2011,Aircraft Structure Assemblers,https://careeratlas.dev/careers/aircraft-structure-assemblers,65380,47310,58600,83410,107500,bls-oews-2025,,34020,-5.6,3100,2,false,2.303,3.197,0.357,20.8,0.279,0.078,0.22,0,39,13,33
 51-2028,Electrical Assemblers,https://careeratlas.dev/careers/electrical-assemblers,45850,35350,38380,51670,62950,bls-oews-2025,,246970,5,25900,,false,,,0.518,57.4,0.414,0.104,0.2,0,45,34,
 51-2090,"Assemblers & Fabricators, Misc.",https://careeratlas.dev/careers/assemblers-fabricators-misc,44650,33280,37380,51200,64880,bls-oews-2025,,1405030,1.1,138700,,false,,,0.518,57.4,0.414,0.104,0.2,0,41,39,
-51-2099,Solar Panel Manufacturers,https://careeratlas.dev/careers/solar-panel-manufacturers,42000,,,,,,,,,,,false,,,,65.6,,,,0,36,,
+51-2099,Solar Panel Manufacturers,https://careeratlas.dev/careers/solar-panel-manufacturers,42000,,,,,,,,,,,false,,,,,,,,0,36,,
 51-3011,Bakers,https://careeratlas.dev/careers/bakers,37160,28120,32660,44360,49020,bls-oews-2025,,236200,5.5,36500,2,true,2.272,3.734,0.377,24.8,0.274,0.103,0.273,0,46,30,54
 51-3021,"Butchers, Retail",https://careeratlas.dev/careers/butchers-retail,40140,29460,35510,48050,58110,bls-oews-2025,,136430,2.4,15100,2,false,2.17,3.728,0.388,27.3,0.282,0.106,0.273,0,43,67,
 51-3023,Slaughterers & Meat Packers,https://careeratlas.dev/careers/slaughterers-meat-packers,40130,33340,36150,46870,51090,bls-oews-2025,,69950,2,7700,2,false,2.013,3.423,0.39,27.5,0.296,0.094,0.242,0,42,35,
-51-3090,"Food Processing Workers, Misc.",https://careeratlas.dev/careers/food-processing-workers-misc,35000,,,,,,,,,,,false,,,,65.6,,,,0,32,,
+51-3090,"Food Processing Workers, Misc.",https://careeratlas.dev/careers/food-processing-workers-misc,35000,,,,,,51-3090,,5.1,36600,,false,,,,,,,,0,37,,
 51-3092,Food Batchmakers,https://careeratlas.dev/careers/food-batchmakers,42290,31990,36350,49670,58940,bls-oews-2025,,174520,6.5,23100,2,true,2.026,3.757,0.424,36.5,0.307,0.117,0.276,0,47,21,72
 51-4041,Machinists,https://careeratlas.dev/careers/machinists,58750,39200,47570,67700,80010,bls-oews-2025,,287050,1,26100,3,false,2.324,3.467,0.41,31.1,0.309,0.101,0.247,0,44,55,56
 51-4111,Tool & Die Makers,https://careeratlas.dev/careers/tool-die-makers,64050,44680,51490,78770,92680,bls-oews-2025,,56930,-9.2,4300,3,false,2.372,3.492,0.436,39.5,0.327,0.109,0.249,0,34,28,64
@@ -497,7 +497,7 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 53-2012,Commercial Pilots,https://careeratlas.dev/careers/commercial-pilots,123220,58850,84540,190440,266620,bls-oews-2025,,47630,5.2,5200,3,true,3.588,1.961,0.43,37.1,0.131,0.299,0.696,3,62,55,22
 53-2021,Air Traffic Controllers,https://careeratlas.dev/careers/air-traffic-controllers,148080,78420,104520,190570,215610,bls-oews-2025,,22510,1.7,2100,3,false,3.542,1.72,0.507,54.4,0.166,0.341,0.672,3,61,60,32
 53-2031,Flight Attendants,https://careeratlas.dev/careers/flight-attendants,63580,35110,51760,95640,136430,bls-oews-2025,,131650,8.8,18500,2,true,2.554,3.694,0.249,5.3,0.182,0.067,0.269,0,56,77,9
-53-2099,Drone Delivery Operators,https://careeratlas.dev/careers/drone-delivery-operators,48000,,,,,,,,,,,false,,,,57.1,,,,1,39,,
+53-2099,Drone Delivery Operators,https://careeratlas.dev/careers/drone-delivery-operators,48000,,,,,,,,,,,false,,,,,,,,1,39,,
 53-3032,Heavy Truck Drivers,https://careeratlas.dev/careers/heavy-truck-drivers,58640,40140,47960,69120,79380,bls-oews-2025,,2062040,3.8,214500,2,true,3.207,2.026,0.505,54.2,0.251,0.254,0.503,2,48,48,43
 53-3033,Delivery Truck Drivers,https://careeratlas.dev/careers/delivery-truck-drivers,44860,30800,37270,52310,80310,bls-oews-2025,,983300,6.3,107200,2,true,2.948,2.683,0.513,55.8,0.427,0.086,0.168,0,44,41,
 53-3051,"Bus Drivers, School",https://careeratlas.dev/careers/bus-drivers-school,47920,29240,38650,58430,65730,bls-oews-2025,,402930,0.7,56500,2,false,3.167,1.709,0.592,75,0.313,0.279,0.471,2,42,49,
@@ -517,9 +517,9 @@ soc_code,occupation_title,career_atlas_url,median_annual_wage_usd,wage_pct10,wag
 53-7051,Forklift & Industrial Truck Operators,https://careeratlas.dev/careers/forklift-industrial-truck-operators,46420,36840,40030,54770,62520,bls-oews-2025,,774420,1.5,64700,2,true,2.211,3.173,0.407,30.9,0.319,0.088,0.217,0,42,3,
 53-7062,"Material Movers, Hand",https://careeratlas.dev/careers/material-movers-hand,40240,31270,36090,46920,55140,bls-oews-2025,,2950280,1.8,340500,2,true,2.085,3.457,0.173,0.9,0.13,0.043,0.246,0,46,14,6
 53-7064,"Packers & Packagers, Hand",https://careeratlas.dev/careers/packers-packagers-hand,36280,27890,32220,43060,47100,bls-oews-2025,,559820,-5,61800,2,false,2.365,3.613,0.398,29.7,0.294,0.104,0.261,0,35,20,
-55-1019,Nuclear Systems Officers,https://careeratlas.dev/careers/nuclear-systems-officers,95000,,,,,,,,,,,false,,,,20.9,,,,0,63,,
-55-3011,Military Pilots,https://careeratlas.dev/careers/military-pilots,95000,,,,,,,,,,,false,,,,20.9,,,,0,63,,
-55-3013,Artillery & Missile Crew,https://careeratlas.dev/careers/artillery-missile-crew,42000,,,,,,,,,,,false,,,,20.9,,,,0,56,,
-55-3014,Military Drone Operators,https://careeratlas.dev/careers/military-drone-operators,55000,,,,,,,,,,,false,,,,20.9,,,,0,60,,
-55-3018,Infantry,https://careeratlas.dev/careers/infantry,40000,,,,,,,,,,,false,,,,20.9,,,,0,56,,
-55-3019,Explosive Ordnance Disposal Techs,https://careeratlas.dev/careers/explosive-ordnance-disposal-techs,68000,,,,,,,,,,,false,,,,20.9,,,,1,60,,
+55-1019,Nuclear Systems Officers,https://careeratlas.dev/careers/nuclear-systems-officers,95000,,,,,,,,,,,false,,,,,,,,0,63,,
+55-3011,Military Pilots,https://careeratlas.dev/careers/military-pilots,95000,,,,,,,,,,,false,,,,,,,,0,63,,
+55-3013,Artillery & Missile Crew,https://careeratlas.dev/careers/artillery-missile-crew,42000,,,,,,,,,,,false,,,,,,,,0,56,,
+55-3014,Military Drone Operators,https://careeratlas.dev/careers/military-drone-operators,55000,,,,,,,,,,,false,,,,,,,,0,60,,
+55-3018,Infantry,https://careeratlas.dev/careers/infantry,40000,,,,,,,,,,,false,,,,,,,,0,56,,
+55-3019,Explosive Ordnance Disposal Techs,https://careeratlas.dev/careers/explosive-ordnance-disposal-techs,68000,,,,,,,,,,,false,,,,,,,,1,60,,
