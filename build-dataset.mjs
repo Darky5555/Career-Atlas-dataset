@@ -80,7 +80,7 @@ const DICTIONARY = [
   ['wage_pct25', 'integer', 'USD/year', 'sourced', 'BLS OEWS 25th percentile. Blank where not published.'],
   ['wage_pct75', 'integer', 'USD/year', 'sourced', 'BLS OEWS 75th percentile. Blank where not published.'],
   ['wage_pct90', 'integer', 'USD/year', 'sourced', 'BLS OEWS 90th percentile. Blank where not published.'],
-  ['wage_source', 'string', '', 'sourced', 'Which release the wage came from. "onet-wage-2025" marks the two occupations absent from the national OEWS file, where O*NET OnLine aggregates state-level BLS data instead. "bls-oews-2025-related" marks a wage BLS publishes for the related occupation this one is grouped with, not for this occupation itself; bls_source_soc names that occupation. Blank means BLS publishes no wage for this occupation and the figure is a Career Atlas estimate.'],
+  ['wage_source', 'string', '', 'sourced', 'Which release the wage came from. "onet-wage-2025" marks occupations absent from the national OEWS file, where O*NET OnLine aggregates state-level BLS data instead. "onet-wage-broadgroup" marks a wage that is the BLS median for the broader Farming, Fishing, and Forestry group, not this occupation alone (45-3031). "bls-oews-2025-related" marks a wage BLS publishes for the related occupation this one is grouped with, not for this occupation itself; bls_source_soc names that occupation. Blank means BLS publishes no national figure for this occupation, so the wage columns are left blank rather than filled with a Career Atlas estimate.'],
   ['bls_source_soc', 'string', '', 'sourced', 'When wage_source ends in "-related", the SOC code of the occupation whose published BLS row these figures describe. Blank otherwise.'],
   ['employment', 'integer', 'jobs', 'sourced', 'Total US employment, BLS OEWS.'],
   ['projected_growth_pct', 'number', 'percent over 10 years', 'sourced', 'BLS Employment Projections 2025-2035, percent change in employment. Negative means projected decline.'],
@@ -104,6 +104,7 @@ const vite = await createServer({ root: ROOT, logLevel: 'warn', server: { middle
 try {
   const derive = await vite.ssrLoadModule('/src/data/derive.js');
   await derive.ensureDetail();
+  const { isEstimate } = await vite.ssrLoadModule('/src/data/provenance.js');
   const { dedupeByCode } = await vite.ssrLoadModule('/src/data/socOwners.js');
   const { displacementRisk } = await vite.ssrLoadModule('/src/models/displacement.js');
   const { gatingLevel } = await vite.ssrLoadModule('/src/data/gating.js');
@@ -119,15 +120,17 @@ try {
     const risk = displacementRisk(d);
     const b = bench.getBenchmarks(d.code) || {};
     const exposure = getAiExposure(d);
+    // A Career Atlas estimate never goes in a column documented as sourced.
+    const estWage = isEstimate(d, 'med');
     rows.push({
       soc_code: d.code,
       occupation_title: d.name,
       career_atlas_url: slug ? `${BASE}/careers/${slug}` : '',
-      median_annual_wage_usd: d.med ?? null,
-      wage_pct10: d.pct10 ?? null,
-      wage_pct25: d.pct25 ?? null,
-      wage_pct75: d.pct75 ?? null,
-      wage_pct90: d.pct90 ?? null,
+      median_annual_wage_usd: estWage ? null : d.med ?? null,
+      wage_pct10: estWage ? null : d.pct10 ?? null,
+      wage_pct25: estWage ? null : d.pct25 ?? null,
+      wage_pct75: estWage ? null : d.pct75 ?? null,
+      wage_pct90: estWage ? null : d.pct90 ?? null,
       wage_source: d._provenance?.med ?? '',
       bls_source_soc: d._blsSource?.code ?? '',
       employment: d.employment ?? null,
